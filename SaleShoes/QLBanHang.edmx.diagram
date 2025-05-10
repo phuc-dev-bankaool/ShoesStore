@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f7a8c28f817541f2a918625541426a43" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBanHangModel.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.DanhGia" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.DonHang" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.HangGiay" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhachHang" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhuyenMai" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhuyenMai_Hang" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.KhuyenMai_SanPham" Width="1.5" PointX="5.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.LoaiKhachHang" Width="1.5" PointX="0.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.QuanTriVien" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLBanHangModel.SanPham" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="QLBanHangModel.FK__ChiTietDo__MaDon__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__ChiTietDo__MaSan__02FC7413" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DanhGia__MaKH__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DanhGia__MaSanPh__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__DonHang__MaKH__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhuyenMai__MaHan__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__SanPham__MaHangG__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhachHang__MaLoa__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhuyenMai__MaKhu__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhuyenMai__MaKhu__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="QLBanHangModel.FK__KhuyenMai__MaSan__0C85DE4D" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
